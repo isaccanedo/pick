@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pick"
+version = "2.2.0"
+description = "Pick an option in the terminal with a simple GUI"
+authors = ["wong2 <wonderfuly@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/wong2/pick"
+homepage = "https://github.com/wong2/pick"
+keywords = ["terminal", "gui"]
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+windows-curses = {version = "^2.2.0", platform = "win32"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.3"
+mypy = "^0.991"
+pre-commit = "^2.20.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
