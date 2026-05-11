@@ -1,4 +1,4 @@
-# pick
+## pick
 
 [![image](https://github.com/wong2/pick/actions/workflows/ci.yml/badge.svg)](https://github.com/wong2/pick/actions/workflows/ci.yml)
 [![PyPI](https://img.shields.io/pypi/v/pick.svg)](https://pypi.python.org/pypi/pick)
